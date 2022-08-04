@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
     spec.documentation_url = "https://durianpay.id/docs/mobile/ios-native/"
     spec.platforms = { :ios => "13.0" }
     spec.swift_version = "5.1"
-    spec.source       = { :git => "git@github.com:durianpay/dpay-ios-kit.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/durianpay/dpay-ios-kit", :tag => "#{spec.version}" }
     # spec.source_files  = "Sources/DpaySDK/**/*.swift"
     spec.resource_bundles = { 'DpaySDK' => ['Sources/DpaySDK/Resources/**/*'] }
     spec.ios.vendored_frameworks = "DpaySDK.xcframework"
