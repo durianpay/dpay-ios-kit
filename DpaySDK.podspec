@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "DpaySDK"
-    spec.version      = "1.1.7"
+    spec.version      = "1.0.3"
     spec.summary      = "iOS sdk for Durianpay"
     # spec.description  = <<-DES
     # This is a way longer description
