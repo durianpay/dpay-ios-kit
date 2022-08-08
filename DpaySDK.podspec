@@ -5,7 +5,7 @@ spec.summary      = "iOS sdk for Durianpay"
 # spec.description  = <<-DESC
 # This is a way longer description
 # DESC
-spec.homepage     = "https://github.com/durianpay/dpay-ios-sdk"
+spec.homepage     = "https://github.com/durianpay/dpay-ios-kit"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author             = { "author" => "pawan.devara@durian.money" }
 spec.documentation_url = "https://durianpay.id/docs/mobile/ios-native/"
