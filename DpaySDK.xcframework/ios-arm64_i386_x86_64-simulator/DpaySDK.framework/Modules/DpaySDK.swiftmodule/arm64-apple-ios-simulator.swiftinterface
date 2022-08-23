@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DpaySDK
 import Foundation
 import Foundation/*.Bundle*/
@@ -39,7 +39,7 @@ import _Concurrency
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class DPaymentFailed : ObjectiveC.NSObject, Foundation.NSCoding, Swift.Codable {
-  @objc public var response: DpaySDK.Response!
+  @objc public var response: Response!
   @objc public var type: Swift.String!
   @objc required public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
@@ -48,7 +48,7 @@ import _Concurrency
   required public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class DPaymentSuccess : ObjectiveC.NSObject, Foundation.NSCoding, Swift.Codable {
-  @objc public var response: DpaySDK.Response!
+  @objc public var response: Response!
   @objc public var type: Swift.String!
   @objc required public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
@@ -57,16 +57,16 @@ import _Concurrency
   required public init(from decoder: Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc(DpaySDK) @_Concurrency.MainActor(unsafe) public class DpaySDK : UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) public static let getInstance: DpaySDK.DpaySDK
-  @_Concurrency.MainActor(unsafe) public func checkout(options: Swift.Dictionary<Swift.String, Any>, listener: DpaySDK.DpayCheckoutProtocol)
-  @objc @_Concurrency.MainActor(unsafe) public func checkout(options: DpaySDK.DCheckoutOptions, listener: DpaySDK.DpayCheckoutProtocol)
+  @objc @_Concurrency.MainActor(unsafe) public static let getInstance: DpaySDK
+  @_Concurrency.MainActor(unsafe) public func checkout(options: Swift.Dictionary<Swift.String, Any>, listener: DpayCheckoutProtocol)
+  @objc @_Concurrency.MainActor(unsafe) public func checkout(options: DCheckoutOptions, listener: DpayCheckoutProtocol)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc public protocol DpayCheckoutProtocol {
-  @objc func onSuccess(transactionResponse: DpaySDK.DPaymentSuccess)
-  @objc func onFailure(transactionResponse: DpaySDK.DPaymentFailed)
+  @objc func onSuccess(transactionResponse: DPaymentSuccess)
+  @objc func onFailure(transactionResponse: DPaymentFailed)
   @objc func onClose(transactionResponse: Swift.String)
 }
 @_hasMissingDesignatedInitializers @objc public class Response : ObjectiveC.NSObject, Foundation.NSCoding, Swift.Codable {
