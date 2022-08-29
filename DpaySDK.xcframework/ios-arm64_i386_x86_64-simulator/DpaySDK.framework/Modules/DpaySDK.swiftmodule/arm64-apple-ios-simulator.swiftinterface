@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DpaySDK
 import Foundation
 import Foundation/*.Bundle*/
@@ -10,37 +10,34 @@ import _Concurrency
 @_inheritsConvenienceInitializers @objc(DCheckoutOptions) public class DCheckoutOptions : ObjectiveC.NSObject {
   @objc public var themeColor: Swift.String?
   @objc public var accentColor: Swift.String?
-  @objc public var locale: Swift.String?
-  @objc public var environment: Swift.String?
-  @objc public var accessToken: Swift.String?
-  @objc public var siteName: Swift.String?
-  @objc public var amount: Swift.String?
-  @objc public var currency: Swift.String?
-  @objc public var orderId: Swift.String?
-  @objc public var paymentType: Swift.String?
-  @objc public var customerId: Swift.String?
-  @objc public var customerEmail: Swift.String?
-  @objc public var customerGivenName: Swift.String?
-  @objc public var customerMobile: Swift.String?
-  @objc public var customerAddressLine1: Swift.String?
-  @objc public var customerAddressLine2: Swift.String?
-  @objc public var customerCity: Swift.String?
-  @objc public var customerRegion: Swift.String?
-  @objc public var customerCountry: Swift.String?
-  @objc public var customerPostalCode: Swift.String?
-  @objc public var label: Swift.String?
-  @objc public var receiverName: Swift.String?
-  @objc public var receiverPhone: Swift.String?
-  @objc public var landmark: Swift.String?
-  @objc public var darkMode: Swift.Bool
-  @objc public var forceFail: Swift.Bool
-  @objc public var delayMs: Foundation.NSNumber?
+  public var locale: Swift.String?
+  public var environment: Swift.String?
+  public var accessToken: Swift.String?
+  public var siteName: Swift.String?
+  public var amount: Swift.String?
+  public var currency: Swift.String?
+  public var orderId: Swift.String?
+  public var paymentType: Swift.String?
+  public var customerId: Swift.String?
+  public var customerEmail: Swift.String?
+  public var customerGivenName: Swift.String?
+  public var customerMobile: Swift.String?
+  public var customerAddressLine1: Swift.String?
+  public var customerAddressLine2: Swift.String?
+  public var customerCity: Swift.String?
+  public var customerRegion: Swift.String?
+  public var customerCountry: Swift.String?
+  public var customerPostalCode: Swift.String?
+  public var label: Swift.String?
+  public var receiverName: Swift.String?
+  public var receiverPhone: Swift.String?
+  public var landmark: Swift.String?
   @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class DPaymentFailed : ObjectiveC.NSObject, Foundation.NSCoding, Swift.Codable {
-  @objc public var response: Response!
-  @objc public var type: Swift.String!
+  public var response: Response!
+  public var type: Swift.String!
   @objc required public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc deinit
@@ -48,26 +45,26 @@ import _Concurrency
   required public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class DPaymentSuccess : ObjectiveC.NSObject, Foundation.NSCoding, Swift.Codable {
-  @objc public var response: Response!
-  @objc public var type: Swift.String!
+  public var response: Response!
+  public var type: Swift.String!
   @objc required public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc(DpaySDK) @_Concurrency.MainActor(unsafe) public class DpaySDK : UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) public static let getInstance: DpaySDK
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DpaySDK : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public static let getInstance: DpaySDK
   @_Concurrency.MainActor(unsafe) public func checkout(options: Swift.Dictionary<Swift.String, Any>, listener: DpayCheckoutProtocol)
-  @objc @_Concurrency.MainActor(unsafe) public func checkout(options: DCheckoutOptions, listener: DpayCheckoutProtocol)
+  @_Concurrency.MainActor(unsafe) public func checkout(options: DCheckoutOptions, listener: DpayCheckoutProtocol)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc public protocol DpayCheckoutProtocol {
-  @objc func onSuccess(transactionResponse: DPaymentSuccess)
-  @objc func onFailure(transactionResponse: DPaymentFailed)
-  @objc func onClose(transactionResponse: Swift.String)
+public protocol DpayCheckoutProtocol {
+  func onSuccess(transactionResponse: DPaymentSuccess)
+  func onFailure(transactionResponse: DPaymentFailed)
+  func onClose(transactionResponse: Swift.String)
 }
 @_hasMissingDesignatedInitializers @objc public class Response : ObjectiveC.NSObject, Foundation.NSCoding, Swift.Codable {
   @objc public var amount: Swift.String!
