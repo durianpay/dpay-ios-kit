@@ -309,14 +309,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)locale",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC6localeSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC6localeSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -341,13 +340,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)locale",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC6localeSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC6localeSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -376,13 +372,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setLocale:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC6localeSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC6localeSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -426,14 +419,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)environment",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC11environmentSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC11environmentSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -458,13 +450,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)environment",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC11environmentSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC11environmentSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -493,13 +482,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setEnvironment:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC11environmentSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC11environmentSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -543,14 +529,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)accessToken",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC11accessTokenSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC11accessTokenSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -575,13 +560,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)accessToken",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC11accessTokenSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC11accessTokenSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -610,13 +592,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setAccessToken:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC11accessTokenSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC11accessTokenSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -660,14 +639,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)siteName",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC8siteNameSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC8siteNameSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -692,13 +670,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)siteName",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8siteNameSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC8siteNameSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -727,13 +702,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setSiteName:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8siteNameSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC8siteNameSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -777,14 +749,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)amount",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC6amountSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC6amountSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -809,13 +780,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)amount",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC6amountSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC6amountSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -844,13 +812,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setAmount:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC6amountSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC6amountSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -894,14 +859,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)currency",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC8currencySSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC8currencySSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -926,13 +890,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)currency",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8currencySSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC8currencySSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -961,13 +922,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCurrency:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8currencySSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC8currencySSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1011,14 +969,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)orderId",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC7orderIdSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC7orderIdSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1043,13 +1000,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)orderId",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC7orderIdSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC7orderIdSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1078,13 +1032,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setOrderId:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC7orderIdSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC7orderIdSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1128,14 +1079,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)paymentType",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC11paymentTypeSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC11paymentTypeSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1160,13 +1110,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)paymentType",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC11paymentTypeSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC11paymentTypeSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1195,13 +1142,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setPaymentType:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC11paymentTypeSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC11paymentTypeSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1245,14 +1189,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerId",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC10customerIdSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC10customerIdSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1277,13 +1220,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerId",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC10customerIdSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC10customerIdSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1312,13 +1252,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerId:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC10customerIdSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC10customerIdSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1362,14 +1299,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerEmail",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC13customerEmailSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC13customerEmailSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1394,13 +1330,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerEmail",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC13customerEmailSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC13customerEmailSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1429,13 +1362,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerEmail:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC13customerEmailSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC13customerEmailSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1479,14 +1409,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerGivenName",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC17customerGivenNameSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC17customerGivenNameSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1511,13 +1440,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerGivenName",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC17customerGivenNameSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC17customerGivenNameSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1546,13 +1472,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerGivenName:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC17customerGivenNameSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC17customerGivenNameSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1596,14 +1519,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerMobile",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC14customerMobileSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC14customerMobileSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1628,13 +1550,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerMobile",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC14customerMobileSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC14customerMobileSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1663,13 +1582,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerMobile:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC14customerMobileSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC14customerMobileSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1713,14 +1629,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerAddressLine1",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC20customerAddressLine1SSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC20customerAddressLine1SSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1745,13 +1660,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerAddressLine1",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC20customerAddressLine1SSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC20customerAddressLine1SSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1780,13 +1692,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerAddressLine1:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC20customerAddressLine1SSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC20customerAddressLine1SSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1830,14 +1739,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerAddressLine2",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC20customerAddressLine2SSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC20customerAddressLine2SSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1862,13 +1770,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerAddressLine2",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC20customerAddressLine2SSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC20customerAddressLine2SSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1897,13 +1802,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerAddressLine2:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC20customerAddressLine2SSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC20customerAddressLine2SSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1947,14 +1849,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerCity",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC12customerCitySSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC12customerCitySSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1979,13 +1880,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerCity",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC12customerCitySSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC12customerCitySSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2014,13 +1912,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerCity:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC12customerCitySSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC12customerCitySSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2064,14 +1959,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerRegion",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC14customerRegionSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC14customerRegionSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2096,13 +1990,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerRegion",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC14customerRegionSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC14customerRegionSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2131,13 +2022,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerRegion:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC14customerRegionSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC14customerRegionSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2181,14 +2069,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerCountry",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC15customerCountrySSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC15customerCountrySSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2213,13 +2100,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerCountry",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC15customerCountrySSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC15customerCountrySSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2248,13 +2132,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerCountry:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC15customerCountrySSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC15customerCountrySSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2298,14 +2179,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)customerPostalCode",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC18customerPostalCodeSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC18customerPostalCodeSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2330,13 +2210,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)customerPostalCode",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC18customerPostalCodeSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC18customerPostalCodeSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2365,13 +2242,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setCustomerPostalCode:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC18customerPostalCodeSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC18customerPostalCodeSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2415,14 +2289,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)label",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC5labelSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC5labelSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2447,13 +2320,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)label",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC5labelSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC5labelSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2482,13 +2352,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setLabel:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC5labelSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC5labelSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2532,14 +2399,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)receiverName",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC12receiverNameSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC12receiverNameSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2564,13 +2430,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)receiverName",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC12receiverNameSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC12receiverNameSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2599,13 +2462,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setReceiverName:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC12receiverNameSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC12receiverNameSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2649,14 +2509,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)receiverPhone",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC13receiverPhoneSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC13receiverPhoneSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2681,13 +2540,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)receiverPhone",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC13receiverPhoneSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC13receiverPhoneSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2716,13 +2572,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setReceiverPhone:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC13receiverPhoneSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC13receiverPhoneSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2766,14 +2619,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)landmark",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC8landmarkSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC8landmarkSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2798,13 +2650,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)landmark",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8landmarkSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC8landmarkSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -2833,13 +2682,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setLandmark:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8landmarkSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC8landmarkSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -2856,309 +2702,6 @@
                 "declKind": "Accessor",
                 "usr": "s:7DpaySDK16DCheckoutOptionsC8landmarkSSSgvM",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC8landmarkSSSgvM",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "darkMode",
-            "printedName": "darkMode",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)darkMode",
-            "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSbvp",
-            "moduleName": "DpaySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)darkMode",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSbvg",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setDarkMode:",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSbvs",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7DpaySDK16DCheckoutOptionsC8darkModeSbvM",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSbvM",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "forceFail",
-            "printedName": "forceFail",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)forceFail",
-            "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSbvp",
-            "moduleName": "DpaySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)forceFail",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSbvg",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setForceFail:",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSbvs",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7DpaySDK16DCheckoutOptionsC9forceFailSbvM",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSbvM",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "delayMs",
-            "printedName": "delayMs",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.NSNumber?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)delayMs",
-            "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSo8NSNumberCSgvp",
-            "moduleName": "DpaySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.NSNumber?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NSNumber",
-                        "printedName": "Foundation.NSNumber",
-                        "usr": "c:objc(cs)NSNumber"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)delayMs",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSo8NSNumberCSgvg",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.NSNumber?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NSNumber",
-                        "printedName": "Foundation.NSNumber",
-                        "usr": "c:objc(cs)NSNumber"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setDelayMs:",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSo8NSNumberCSgvs",
-                "moduleName": "DpaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7DpaySDK16DCheckoutOptionsC7delayMsSo8NSNumberCSgvM",
-                "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSo8NSNumberCSgvM",
                 "moduleName": "DpaySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3186,14 +2729,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(py)sdkSource",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvp",
             "mangledName": "$s7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3218,13 +2760,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)sdkSource",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvg",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -3253,13 +2792,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DCheckoutOptions(im)setSdkSource:",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvs",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -3276,6 +2812,336 @@
                 "declKind": "Accessor",
                 "usr": "s:7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvM",
                 "mangledName": "$s7DpaySDK16DCheckoutOptionsC9sdkSourceSSSgvM",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delayMs",
+            "printedName": "delayMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC7delayMsSSSgvp",
+            "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSSSgvp",
+            "moduleName": "DpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC7delayMsSSSgvg",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSSSgvg",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC7delayMsSSSgvs",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSSSgvs",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC7delayMsSSSgvM",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC7delayMsSSSgvM",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "forceFail",
+            "printedName": "forceFail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC9forceFailSSSgvp",
+            "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSSSgvp",
+            "moduleName": "DpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC9forceFailSSSgvg",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSSSgvg",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC9forceFailSSSgvs",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSSSgvs",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC9forceFailSSSgvM",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC9forceFailSSSgvM",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "darkMode",
+            "printedName": "darkMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7DpaySDK16DCheckoutOptionsC8darkModeSSSgvp",
+            "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSSSgvp",
+            "moduleName": "DpaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8darkModeSSSgvg",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSSSgvg",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8darkModeSSSgvs",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSSSgvs",
+                "moduleName": "DpaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DpaySDK16DCheckoutOptionsC8darkModeSSSgvM",
+                "mangledName": "$s7DpaySDK16DCheckoutOptionsC8darkModeSSSgvM",
                 "moduleName": "DpaySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3411,14 +3277,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DPaymentFailed(py)response",
+            "usr": "s:7DpaySDK14DPaymentFailedC8responseAA8ResponseCSgvp",
             "mangledName": "$s7DpaySDK14DPaymentFailedC8responseAA8ResponseCSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3443,13 +3308,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentFailed(im)response",
+                "usr": "s:7DpaySDK14DPaymentFailedC8responseAA8ResponseCSgvg",
                 "mangledName": "$s7DpaySDK14DPaymentFailedC8responseAA8ResponseCSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -3478,13 +3340,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentFailed(im)setResponse:",
+                "usr": "s:7DpaySDK14DPaymentFailedC8responseAA8ResponseCSgvs",
                 "mangledName": "$s7DpaySDK14DPaymentFailedC8responseAA8ResponseCSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -3528,14 +3387,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DPaymentFailed(py)type",
+            "usr": "s:7DpaySDK14DPaymentFailedC4typeSSSgvp",
             "mangledName": "$s7DpaySDK14DPaymentFailedC4typeSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3560,13 +3418,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentFailed(im)type",
+                "usr": "s:7DpaySDK14DPaymentFailedC4typeSSSgvg",
                 "mangledName": "$s7DpaySDK14DPaymentFailedC4typeSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -3595,13 +3450,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentFailed(im)setType:",
+                "usr": "s:7DpaySDK14DPaymentFailedC4typeSSSgvs",
                 "mangledName": "$s7DpaySDK14DPaymentFailedC4typeSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -3880,14 +3732,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DPaymentSuccess(py)response",
+            "usr": "s:7DpaySDK15DPaymentSuccessC8responseAA8ResponseCSgvp",
             "mangledName": "$s7DpaySDK15DPaymentSuccessC8responseAA8ResponseCSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3912,13 +3763,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentSuccess(im)response",
+                "usr": "s:7DpaySDK15DPaymentSuccessC8responseAA8ResponseCSgvg",
                 "mangledName": "$s7DpaySDK15DPaymentSuccessC8responseAA8ResponseCSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -3947,13 +3795,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentSuccess(im)setResponse:",
+                "usr": "s:7DpaySDK15DPaymentSuccessC8responseAA8ResponseCSgvs",
                 "mangledName": "$s7DpaySDK15DPaymentSuccessC8responseAA8ResponseCSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -3997,14 +3842,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DPaymentSuccess(py)type",
+            "usr": "s:7DpaySDK15DPaymentSuccessC4typeSSSgvp",
             "mangledName": "$s7DpaySDK15DPaymentSuccessC4typeSSSgvp",
             "moduleName": "DpaySDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4029,13 +3873,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentSuccess(im)type",
+                "usr": "s:7DpaySDK15DPaymentSuccessC4typeSSSgvg",
                 "mangledName": "$s7DpaySDK15DPaymentSuccessC4typeSSSgvg",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -4064,13 +3905,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DPaymentSuccess(im)setType:",
+                "usr": "s:7DpaySDK15DPaymentSuccessC4typeSSSgvs",
                 "mangledName": "$s7DpaySDK15DPaymentSuccessC4typeSSSgvs",
                 "moduleName": "DpaySDK",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -4352,17 +4190,16 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DpaySDK@objc(cs)DpaySDK(cpy)getInstance",
+            "usr": "s:7DpaySDKAAC11getInstanceABvpZ",
             "mangledName": "$s7DpaySDKAAC11getInstanceABvpZ",
             "moduleName": "DpaySDK",
             "static": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "Final",
-              "Custom",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4380,14 +4217,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DpaySDK@objc(cs)DpaySDK(cm)getInstance",
+                "usr": "s:7DpaySDKAAC11getInstanceABvgZ",
                 "mangledName": "$s7DpaySDKAAC11getInstanceABvgZ",
                 "moduleName": "DpaySDK",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -4426,7 +4262,7 @@
                 "kind": "TypeNominal",
                 "name": "DpayCheckoutProtocol",
                 "printedName": "DpaySDK.DpayCheckoutProtocol",
-                "usr": "c:@M@DpaySDK@objc(pl)DpayCheckoutProtocol"
+                "usr": "s:7DpaySDK0A16CheckoutProtocolP"
               }
             ],
             "declKind": "Func",
@@ -4460,18 +4296,16 @@
                 "kind": "TypeNominal",
                 "name": "DpayCheckoutProtocol",
                 "printedName": "DpaySDK.DpayCheckoutProtocol",
-                "usr": "c:@M@DpaySDK@objc(pl)DpayCheckoutProtocol"
+                "usr": "s:7DpaySDK0A16CheckoutProtocolP"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DpaySDK@objc(cs)DpaySDK(im)checkoutWithOptions:listener:",
+            "usr": "s:7DpaySDKAAC8checkout7options8listeneryAA16DCheckoutOptionsC_AA0A16CheckoutProtocol_ptF",
             "mangledName": "$s7DpaySDKAAC8checkout7options8listeneryAA16DCheckoutOptionsC_AA0A16CheckoutProtocol_ptF",
             "moduleName": "DpaySDK",
-            "objc_name": "checkoutWithOptions:listener:",
             "declAttributes": [
               "Custom",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -4577,12 +4411,11 @@
         "usr": "c:@M@DpaySDK@objc(cs)DpaySDK",
         "mangledName": "$s7DpaySDKAAC",
         "moduleName": "DpaySDK",
-        "objc_name": "DpaySDK",
         "declAttributes": [
           "Custom",
           "AccessControl",
-          "ObjC",
-          "RawDocComment"
+          "RawDocComment",
+          "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
         "inheritsConvenienceInitializers": true,
@@ -4690,16 +4523,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DpaySDK@objc(pl)DpayCheckoutProtocol(im)onSuccessWithTransactionResponse:",
+            "usr": "s:7DpaySDK0A16CheckoutProtocolP9onSuccess19transactionResponseyAA08DPaymentF0C_tF",
             "mangledName": "$s7DpaySDK0A16CheckoutProtocolP9onSuccess19transactionResponseyAA08DPaymentF0C_tF",
             "moduleName": "DpaySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : DpaySDK.DpayCheckoutProtocol>",
             "sugared_genericSig": "<Self where Self : DpaySDK.DpayCheckoutProtocol>",
             "protocolReq": true,
-            "objc_name": "onSuccessWithTransactionResponse:",
-            "declAttributes": [
-              "ObjC"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -4721,15 +4550,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DpaySDK@objc(pl)DpayCheckoutProtocol(im)onFailureWithTransactionResponse:",
+            "usr": "s:7DpaySDK0A16CheckoutProtocolP9onFailure19transactionResponseyAA14DPaymentFailedC_tF",
             "mangledName": "$s7DpaySDK0A16CheckoutProtocolP9onFailure19transactionResponseyAA14DPaymentFailedC_tF",
             "moduleName": "DpaySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : DpaySDK.DpayCheckoutProtocol>",
             "sugared_genericSig": "<Self where Self : DpaySDK.DpayCheckoutProtocol>",
             "protocolReq": true,
-            "objc_name": "onFailureWithTransactionResponse:",
             "declAttributes": [
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -4753,15 +4580,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DpaySDK@objc(pl)DpayCheckoutProtocol(im)onCloseWithTransactionResponse:",
+            "usr": "s:7DpaySDK0A16CheckoutProtocolP7onClose19transactionResponseySS_tF",
             "mangledName": "$s7DpaySDK0A16CheckoutProtocolP7onClose19transactionResponseySS_tF",
             "moduleName": "DpaySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : DpaySDK.DpayCheckoutProtocol>",
             "sugared_genericSig": "<Self where Self : DpaySDK.DpayCheckoutProtocol>",
             "protocolReq": true,
-            "objc_name": "onCloseWithTransactionResponse:",
             "declAttributes": [
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -4769,14 +4594,11 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "c:@M@DpaySDK@objc(pl)DpayCheckoutProtocol",
+        "usr": "s:7DpaySDK0A16CheckoutProtocolP",
         "mangledName": "$s7DpaySDK0A16CheckoutProtocolP",
         "moduleName": "DpaySDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
-          "ObjC",
           "RawDocComment"
         ]
       },
@@ -6311,20 +6133,6 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1163,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1208,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
       "kind": "StringLiteral",
       "offset": 102,
@@ -6369,7 +6177,7 @@
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 95,
+      "offset": 94,
       "length": 8,
       "value": "\"DpaySDK.Response\""
     }
