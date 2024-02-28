@@ -8,6 +8,6 @@ The minimum version supporting the SDK is iOS 13.0, update the version in your p
 
 Import the SDK using Cocoapod pod. To install it, add the following line in your Podfile
 
-    pod 'DpaySDK', '1.1.12'
+    pod 'DpaySDK', '1.1.13'
 
 [more documentation](https://durianpay.id/docs/mobile/ios-native/)

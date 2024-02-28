@@ -1,15 +1,18 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DpaySDK
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DpaySDK
+import DeveloperToolsSupport
 import Foundation
 import Foundation/*.Bundle*/
 import Foundation/*.ProcessInfo*/
 import Foundation/*.URL*/
 import Swift
+import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc(DCheckoutOptions) public class DCheckoutOptions : ObjectiveC.NSObject {
   @objc public var themeColor: Swift.String?
   @objc public var accentColor: Swift.String?
@@ -48,8 +51,8 @@ import _StringProcessing
   @objc required public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class DPaymentSuccess : ObjectiveC.NSObject, Foundation.NSCoding, Swift.Codable {
   public var response: Response!
@@ -57,13 +60,13 @@ import _StringProcessing
   @objc required public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DpaySDK : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public static let getInstance: DpaySDK
-  @_Concurrency.MainActor(unsafe) public func checkout(options: Swift.Dictionary<Swift.String, Any>, listener: DpayCheckoutProtocol)
-  @_Concurrency.MainActor(unsafe) public func checkout(options: DCheckoutOptions, listener: DpayCheckoutProtocol)
+  @_Concurrency.MainActor(unsafe) public func checkout(options: Swift.Dictionary<Swift.String, Any>, listener: any DpayCheckoutProtocol)
+  @_Concurrency.MainActor(unsafe) public func checkout(options: DCheckoutOptions, listener: any DpayCheckoutProtocol)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -84,6 +87,6 @@ public protocol DpayCheckoutProtocol {
   @objc required public init(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }

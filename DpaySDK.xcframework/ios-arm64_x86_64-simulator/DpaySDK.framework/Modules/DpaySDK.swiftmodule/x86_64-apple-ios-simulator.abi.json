@@ -4476,6 +4476,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -5665,6 +5672,34 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DpaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DpaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DpaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "DpaySDK"
       }
     ],
     "json_format_version": 8
@@ -5680,21 +5715,21 @@
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DpaySDK\/IntermediateBuildFilesPath\/DpaySDK.build\/Release-iphonesimulator\/DpaySDK.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "Array",
-      "offset": 601,
+      "offset": 959,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DpaySDK\/IntermediateBuildFilesPath\/DpaySDK.build\/Release-iphonesimulator\/DpaySDK.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
-      "offset": 1128,
+      "offset": 1486,
       "length": 9,
       "value": "\".bundle\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DpaySDK\/IntermediateBuildFilesPath\/DpaySDK.build\/Release-iphonesimulator\/DpaySDK.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1638,
       "length": 45,
       "value": "\"unable to find bundle named DpaySDK_DpaySDK\""
     },
@@ -5884,253 +5919,505 @@
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1808,
-      "length": 33,
-      "value": "\"https:\/\/wsa.wallet.airpay.co.id\""
+      "length": 26,
+      "value": "\"https:\/\/pay.airpay.co.id\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1884,
+      "offset": 1877,
       "length": 29,
       "value": "\"itms-appss:\/\/apps.apple.com\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1950,
+      "offset": 1943,
       "length": 22,
       "value": "\"https:\/\/ib.bri.co.id\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2013,
+      "offset": 2006,
       "length": 36,
       "value": "\"https:\/\/business.bankmandiri.co.id\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 2083,
       "length": 28,
       "value": "\"https:\/\/www.permatanet.com\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2155,
+      "offset": 2148,
       "length": 25,
       "value": "\"https:\/\/ibank.bni.co.id\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2210,
       "length": 25,
       "value": "\"https:\/\/www.klikbca.com\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2290,
+      "offset": 2283,
       "length": 51,
       "value": "\"https:\/\/checkout.durianpay.id\/static\/loading.html\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2433,
+      "offset": 2426,
       "length": 3,
       "value": "245"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2437,
+      "offset": 2430,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2449,
+      "offset": 2442,
       "length": 3,
       "value": "245"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2453,
+      "offset": 2446,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2464,
+      "offset": 2457,
       "length": 3,
       "value": "248"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2468,
+      "offset": 2461,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2480,
+      "offset": 2473,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2529,
+      "offset": 2522,
       "length": 3,
       "value": "245"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2533,
+      "offset": 2526,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2544,
+      "offset": 2537,
       "length": 3,
       "value": "246"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2548,
+      "offset": 2541,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2558,
+      "offset": 2551,
       "length": 3,
       "value": "248"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2562,
+      "offset": 2555,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2573,
+      "offset": 2566,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2702,
+      "offset": 2695,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2704,
+      "offset": 2697,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2715,
+      "offset": 2708,
       "length": 2,
       "value": "54"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2718,
+      "offset": 2711,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2728,
+      "offset": 2721,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2732,
+      "offset": 2725,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2743,
+      "offset": 2736,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2790,
+      "offset": 2783,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2793,
+      "offset": 2786,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2804,
+      "offset": 2797,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2807,
+      "offset": 2800,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2817,
+      "offset": 2810,
       "length": 2,
       "value": "67"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2820,
+      "offset": 2813,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2831,
+      "offset": 2824,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 8,
+      "value": "\"locale\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 13,
+      "value": "\"environment\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 12,
+      "value": "\"customerId\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1363,
+      "length": 10,
+      "value": "\"siteName\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 15,
+      "value": "\"customerEmail\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 13,
+      "value": "\"accessToken\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1502,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1591,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 13,
+      "value": "\"paymentType\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 12,
+      "value": "\"themeColor\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1737,
+      "length": 13,
+      "value": "\"accentColor\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 19,
+      "value": "\"customerGivenName\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1856,
+      "length": 16,
+      "value": "\"customerMobile\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1909,
+      "length": 22,
+      "value": "\"customerAddressLine1\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1974,
+      "length": 22,
+      "value": "\"customerAddressLine2\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2039,
+      "length": 14,
+      "value": "\"customerCity\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2088,
+      "length": 16,
+      "value": "\"customerRegion\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2141,
+      "length": 17,
+      "value": "\"customerCountry\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2196,
+      "length": 20,
+      "value": "\"customerPostalCode\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2257,
+      "length": 7,
+      "value": "\"label\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2292,
+      "length": 14,
+      "value": "\"receiverName\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2341,
+      "length": 15,
+      "value": "\"receiverPhone\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2392,
+      "length": 10,
+      "value": "\"landmark\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2433,
+      "length": 10,
+      "value": "\"darkMode\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2474,
+      "length": 11,
+      "value": "\"forceFail\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2517,
+      "length": 9,
+      "value": "\"delayMs\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DCheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2556,
+      "length": 11,
+      "value": "\"sdkSource\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 908,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 984,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
+      "kind": "StringLiteral",
+      "offset": 1684,
+      "length": 6,
+      "value": "\"type\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentFailed.swift",
@@ -6138,6 +6425,62 @@
       "offset": 102,
       "length": 14,
       "value": "\"DpaySDK.DPaymentFailed\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 985,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 1599,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 6,
+      "value": "\"type\""
     },
     {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DPaymentSuccess.swift",
@@ -6175,11 +6518,1649 @@
       "value": "80"
     },
     {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1457,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1815,
+      "length": 9,
+      "value": "\"dpayIOS\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 2160,
+      "length": 22,
+      "value": "\"inside view did load\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2349,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2467,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2744,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2750,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 3148,
+      "length": 17,
+      "value": "\"DpaySDK_DpaySDK\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 3182,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 3275,
+      "length": 32,
+      "value": "\"inside the resource bundle url\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 12,
+      "value": "\"back-arrow\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3674,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3773,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 9,
+      "value": "\"error: \""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 4577,
+      "length": 11,
+      "value": "\"message\n\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4656,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5055,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5248,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5307,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5377,
+      "length": 21,
+      "value": "\"payment_method_used\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5451,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5512,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5597,
+      "length": 19,
+      "value": "\"trackCompletion: \""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5695,
+      "length": 12,
+      "value": "\"customerId\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5907,
+      "length": 10,
+      "value": "\"payment_\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6077,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 6434,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 6469,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 6656,
+      "length": 9,
+      "value": "\"failure\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 6842,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 6978,
+      "length": 32,
+      "value": "\"error in callback from DpaySDK\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7569,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7822,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8520,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8953,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8991,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9075,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9111,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9475,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9487,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9761,
+      "length": 16,
+      "value": "\"Button pressed\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9932,
+      "length": 9,
+      "value": "\"Warning\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9975,
+      "length": 54,
+      "value": "\"Are you sure you want to cancel the ongoing payment?\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10067,
+      "length": 5,
+      "value": "\"Yes\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10110,
+      "length": 4,
+      "value": "\"No\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11007,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 11157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11310,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11711,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11772,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11803,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11959,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12083,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12212,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12341,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12464,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12583,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12706,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12829,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12959,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "FloatLiteral",
+      "offset": 13202,
+      "length": 5,
+      "value": "0.299"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13208,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "FloatLiteral",
+      "offset": 13220,
+      "length": 5,
+      "value": "0.587"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13226,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "FloatLiteral",
+      "offset": 13237,
+      "length": 5,
+      "value": "0.114"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13243,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13250,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13319,
+      "length": 17,
+      "value": "\"DpaySDK_DpaySDK\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13353,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13483,
+      "length": 18,
+      "value": "\"back-arrow-light\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13860,
+      "length": 17,
+      "value": "\"DpaySDK_DpaySDK\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13894,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 14024,
+      "length": 12,
+      "value": "\"back-arrow\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 14499,
+      "length": 8,
+      "value": "\"app:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14515,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 14566,
+      "length": 5,
+      "value": "\"ovo\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 14639,
+      "length": 11,
+      "value": "\"\\:\\\/\\\/\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14814,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 14868,
+      "length": 5,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15274,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16068,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16098,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 16127,
+      "length": 19,
+      "value": "\"error with code: \""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 16224,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 16311,
+      "length": 9,
+      "value": "\" error \""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 16393,
+      "length": 26,
+      "value": "\". Please try again later\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 16461,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 16507,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16545,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 17098,
+      "length": 17,
+      "value": "\"previousRequest\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17228,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17258,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 17307,
+      "length": 17,
+      "value": "\"previousRequest\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 17383,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 17420,
+      "length": 51,
+      "value": "\"window.localStorage.removeItem('installed_apps');\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 17506,
+      "length": 56,
+      "value": "\"window.localStorage.removeItem('installed_bank_apps');\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 17597,
+      "length": 44,
+      "value": "\"window.localStorage.removeItem('ovo_app');\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 17982,
+      "length": 47,
+      "value": "\"window.localStorage.setItem('ovo_app','ovo');\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 18331,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 18380,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 18724,
+      "length": 48,
+      "value": "\"window.localStorage.setItem('installed_apps','\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 18791,
+      "length": 5,
+      "value": "\"');\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 18894,
+      "length": 17,
+      "value": "\"previousRequest\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 19209,
+      "length": 16,
+      "value": "\"trackWebview: \""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 19349,
+      "length": 12,
+      "value": "\"customerId\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 19404,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 19457,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 19483,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 19511,
+      "length": 16,
+      "value": "\"webview_opened\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19608,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 19879,
+      "length": 20,
+      "value": "\"navigation error: \""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19966,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 20160,
+      "length": 27,
+      "value": "\"failed navigation: error \""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20337,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21222,
+      "length": 10,
+      "value": "\"&locale=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21244,
+      "length": 8,
+      "value": "\"Locale\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21259,
+      "length": 8,
+      "value": "\"locale\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21378,
+      "length": 15,
+      "value": "\"&environment=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21405,
+      "length": 13,
+      "value": "\"Environment\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21425,
+      "length": 13,
+      "value": "\"environment\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21549,
+      "length": 13,
+      "value": "\"&site_name=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21574,
+      "length": 11,
+      "value": "\"Site name\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21592,
+      "length": 10,
+      "value": "\"siteName\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21713,
+      "length": 18,
+      "value": "\"&customer_email=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21743,
+      "length": 16,
+      "value": "\"Customer email\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21766,
+      "length": 15,
+      "value": "\"customerEmail\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21892,
+      "length": 14,
+      "value": "\"&access_key=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21918,
+      "length": 14,
+      "value": "\"Access token\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 21939,
+      "length": 13,
+      "value": "\"accessToken\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22063,
+      "length": 12,
+      "value": "\"&order_id=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22087,
+      "length": 10,
+      "value": "\"Order id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22104,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22224,
+      "length": 15,
+      "value": "\"&customer_id=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22251,
+      "length": 13,
+      "value": "\"Customer ID\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22271,
+      "length": 12,
+      "value": "\"customerId\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22326,
+      "length": 14,
+      "value": "\"&session_id=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22453,
+      "length": 10,
+      "value": "\"&amount=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22475,
+      "length": 8,
+      "value": "\"Amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22490,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22609,
+      "length": 12,
+      "value": "\"&currency=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22633,
+      "length": 10,
+      "value": "\"Currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22650,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22779,
+      "length": 8,
+      "value": "\"&type=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22794,
+      "length": 13,
+      "value": "\"paymentType\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 22985,
+      "length": 15,
+      "value": "\"&theme_color=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23007,
+      "length": 12,
+      "value": "\"themeColor\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23138,
+      "length": 16,
+      "value": "\"&accent_color=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23161,
+      "length": 13,
+      "value": "\"accentColor\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23302,
+      "length": 9,
+      "value": "\"&label=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23318,
+      "length": 7,
+      "value": "\"label\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23444,
+      "length": 17,
+      "value": "\"&receiver_name=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23468,
+      "length": 14,
+      "value": "\"receiverName\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23601,
+      "length": 18,
+      "value": "\"&receiver_phone=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23626,
+      "length": 15,
+      "value": "\"receiverPhone\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23760,
+      "length": 12,
+      "value": "\"&landmark=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23779,
+      "length": 10,
+      "value": "\"landmark\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23908,
+      "length": 23,
+      "value": "\"&customer_given_name=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 23938,
+      "length": 19,
+      "value": "\"customerGivenName\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24076,
+      "length": 19,
+      "value": "\"&customer_mobile=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24102,
+      "length": 16,
+      "value": "\"customerMobile\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24237,
+      "length": 26,
+      "value": "\"&customer_address_line1=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24270,
+      "length": 22,
+      "value": "\"customerAddressLine1\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24411,
+      "length": 26,
+      "value": "\"&customer_address_line2=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24444,
+      "length": 22,
+      "value": "\"customerAddressLine2\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24585,
+      "length": 17,
+      "value": "\"&customer_city=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24609,
+      "length": 14,
+      "value": "\"customerCity\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24742,
+      "length": 19,
+      "value": "\"&customer_region=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24768,
+      "length": 16,
+      "value": "\"customerRegion\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24903,
+      "length": 20,
+      "value": "\"&customer_country=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 24930,
+      "length": 17,
+      "value": "\"customerCountry\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25066,
+      "length": 24,
+      "value": "\"&customer_postal_code=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25097,
+      "length": 20,
+      "value": "\"customerPostalCode\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25236,
+      "length": 13,
+      "value": "\"&dark_mode=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25256,
+      "length": 10,
+      "value": "\"darkMode\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25385,
+      "length": 14,
+      "value": "\"&force_fail=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25406,
+      "length": 11,
+      "value": "\"forceFail\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25536,
+      "length": 12,
+      "value": "\"&delay_ms=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25555,
+      "length": 9,
+      "value": "\"delayMs\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25681,
+      "length": 14,
+      "value": "\"&sdk_source=\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpayDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 25702,
+      "length": 11,
+      "value": "\"sdkSource\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpaySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1047,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/DpaySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1930,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 342,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 364,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 20,
+      "value": "\" must not be empty\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1276,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 2006,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 2584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 700,
+      "length": 5,
+      "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 12,
+      "value": "\"payment_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 21,
+      "value": "\"payment_method_used\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1449,
+      "length": 5,
+      "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1522,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 12,
+      "value": "\"payment_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 21,
+      "value": "\"payment_method_used\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2078,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2148,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2215,
+      "length": 5,
+      "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2281,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2354,
+      "length": 12,
+      "value": "\"payment_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2437,
+      "length": 21,
+      "value": "\"payment_method_used\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2519,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2768,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2860,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2944,
+      "length": 5,
+      "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 3031,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 3127,
+      "length": 12,
+      "value": "\"payment_id\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 3241,
+      "length": 21,
+      "value": "\"payment_method_used\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 3344,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
       "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/Response.swift",
       "kind": "StringLiteral",
       "offset": 94,
       "length": 8,
       "value": "\"DpaySDK.Response\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/SnowplowManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 8,
+      "value": "\"param1\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/SnowplowManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1810,
+      "length": 13,
+      "value": "\"webview_iOS\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/SnowplowManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1963,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/SnowplowManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2010,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/SnowplowManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3489,
+      "length": 8,
+      "value": "\"param1\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/Sources\/DpaySDK\/SnowplowManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DpaySDK\/IntermediateBuildFilesPath\/DpaySDK.build\/Release-iphonesimulator\/DpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 12,
+      "value": "\"BackButton\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DpaySDK\/IntermediateBuildFilesPath\/DpaySDK.build\/Release-iphonesimulator\/DpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 12,
+      "value": "\"back-arrow\""
+    },
+    {
+      "filePath": "\/Users\/akhamatkhoir\/Work\/d\/dpay-ios-sdk\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DpaySDK\/IntermediateBuildFilesPath\/DpaySDK.build\/Release-iphonesimulator\/DpaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 18,
+      "value": "\"back-arrow-light\""
     }
   ]
 }
