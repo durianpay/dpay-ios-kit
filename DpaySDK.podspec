@@ -17,4 +17,6 @@ spec.source       = { :git => "https://github.com/durianpay/dpay-ios-kit.git", :
 spec.resource_bundles = { 'DpaySDK' => ['Sources/DpaySDK/Resources/**/*'] }
 spec.vendored_frameworks = "DpaySDK.xcframework"
 spec.xcconfig = { "SWIFT_VERSION" => "5.1" }
+spec.dependency 'SnowplowTracker', '~> 2.0.0'
+
 end
