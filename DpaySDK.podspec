@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "DpaySDK"
-spec.version      = "1.1.13"
+spec.version      = "1.1.14"
 spec.summary      = "iOS sdk for Durianpay"
 
 # spec.description  = <<-DESC
@@ -17,6 +17,4 @@ spec.source       = { :git => "https://github.com/durianpay/dpay-ios-kit.git", :
 spec.resource_bundles = { 'DpaySDK' => ['Sources/DpaySDK/Resources/**/*'] }
 spec.vendored_frameworks = "DpaySDK.xcframework"
 spec.xcconfig = { "SWIFT_VERSION" => "5.1" }
-spec.dependency 'SnowplowTracker', '~> 2.0.0'
-
 end

@@ -9,15 +9,6 @@
           "revision": "61e51fde7f7aab6554f30ab061cc588b28a97d04",
           "version": "2.7.7"
         }
-      },
-      {
-        "package": "SnowplowTracker",
-        "repositoryURL": "https://github.com/snowplow/snowplow-objc-tracker.git",
-        "state": {
-          "branch": null,
-          "revision": "bb2536821fc6bf0b5cd7a822c560f55ce245ea7f",
-          "version": "1.7.1"
-        }
       }
     ]
   },
